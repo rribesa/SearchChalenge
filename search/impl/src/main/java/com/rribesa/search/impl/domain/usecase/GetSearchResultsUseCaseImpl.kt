@@ -8,5 +8,5 @@ class GetSearchResultsUseCaseImpl(
     private val repository: GetSearchRepository,
 ) : GetSearchResultsUseCase {
     override suspend fun invoke(term: String): Result<List<SearchResultModel>> =
-        repository.getSearchHistory(term)
+        repository.getSearchResults(term)
 }

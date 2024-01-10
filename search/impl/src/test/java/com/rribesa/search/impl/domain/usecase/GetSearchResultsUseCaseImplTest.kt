@@ -29,7 +29,7 @@ class GetSearchResultsUseCaseImplTest {
         getSearchResult: Result<List<SearchResultModel>> = Result.success(listOf(SearchResultModel(""))),
     ) {
         coEvery {
-            repository.getSearchHistory(any())
+            repository.getSearchResults(any())
         } returns getSearchResult
     }
 

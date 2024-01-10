@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -58,6 +60,9 @@ dependencies {
     implementation 'androidx.compose.ui:ui-tooling-preview'
     implementation 'androidx.compose.material3:material3'
     implementation 'androidx.navigation:navigation-runtime-ktx:2.7.6'
+    implementation "org.koin:koin-core:2.0.1"
+    implementation "org.koin:koin-android:2.0.1"
+    implementation "org.koin:koin-androidx-viewmodel:2.0.1"
     testImplementation 'junit:junit:4.13.2'
     testImplementation "io.mockk:mockk:1.12.0"
     testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4"

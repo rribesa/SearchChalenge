@@ -12,7 +12,6 @@ class SearchChallengeViewState {
     val isEmptyState = MutableStateFlow(searchResult.value.isEmpty())
     val action = MutableSharedFlow<Action>()
 
-
     sealed class Action {
         data class NavigateDetails(val item: SearchResult) : Action()
     }
