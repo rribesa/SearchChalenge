@@ -30,6 +30,10 @@ The MVVM architecture was chosen for this project. For the ViewModel, a single S
 - Room will be considered for future implementation for result caching
 
 ## Next Steps
+- Add Instrumente Tests (Expresso)
+- Add KT Lint
+- Add CI (CIRCLE CI or GITHUB ACTIONS)
 - Replace Gson with Kotlin Serialization
 - Move search module to features module
+
   
