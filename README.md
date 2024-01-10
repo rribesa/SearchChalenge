@@ -31,3 +31,5 @@ The MVVM architecture was chosen for this project. For the ViewModel, a single S
 
 ## Next Steps
 - Replace Gson with Kotlin Serialization
+- Move search module to features module
+  
